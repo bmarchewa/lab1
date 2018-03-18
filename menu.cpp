@@ -17,26 +17,22 @@ void menu()
 		switch(liczba)
 		{
 		case 1:
-			cout<<"1"<<endl;
 			odczyt_zapis();
 			break;
 			
 		case 2:
-			cout<<"2"<<endl;
 			wprowadzanie_danych();
 			break;
 		
 		case 3:
-			cout<<"3"<<endl;
 			wyswietlanie();
 			break;
 
 		case 4:
-			cout<<"4"<<endl;
 			dzialania();
 			break;
 		default:
-			cout << "Bleden dane wpisz 1, 2, 3 lub 4" << endl;
+			cout << "Błędne dane wpisz 1, 2, 3 lub 4" << endl;
 			break;
 		}
 	}
