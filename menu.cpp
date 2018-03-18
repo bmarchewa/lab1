@@ -5,13 +5,12 @@ using namespace std;
 
 void menu()
 {
+	cout<<"1.Odczyt/Zapis"<<endl;
+	cout<<"2.Wprowadzanie danych"<<endl;
+	cout<<"3.Wyświetlanie arkusza"<<endl;
+	cout<<"4.Działania na arkuszu"<<endl;
 	while (true)
 	{
-		cout<<"1.Odczyt/Zapis"<<endl;
-		cout<<"2.Wprowadzanie danych"<<endl;
-		cout<<"3.Wyświetlanie arkusza"<<endl;
-		cout<<"4.Działania na arkuszu"<<endl;
-		
 		int liczba;
 		cin>>liczba;
 
@@ -35,6 +34,9 @@ void menu()
 		case 4:
 			cout<<"4"<<endl;
 			dzialania();
+			break;
+		default:
+			cout << "Bleden dane wpisz 1, 2, 3 lub 4" << endl;
 			break;
 		}
 	}
